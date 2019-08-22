@@ -39,7 +39,9 @@ public class TestBase {
 			thr.initCause(null);
 		}
 			
+		System.out.println("URL: "+prop.getProperty("url"));
 		driver.get(prop.getProperty("url"));
+		System.out.println("Maximize windows:");
 		driver.manage().window().maximize();
 		return driver;
 	}
