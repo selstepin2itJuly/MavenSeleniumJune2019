@@ -29,7 +29,7 @@ public class SuccessFulLogin {
 	LoginPage lp;
 	DashboardPage dp;
 	
-	@Test(priority=3,description="Successful login")
+	@Test(priority=3,description="Successful login method")
 	public void testOne_SuccessfulLogin() {
 		System.out.println("Test 1");
 		
